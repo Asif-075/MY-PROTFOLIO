@@ -25,9 +25,9 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar">
+    <nav id="About" class="navbar">
         <div class="nav-items">
-            <div id="About" class="nav-heading1">
+            <div class="nav-heading1">
                 <a href="#home" class="nav-link">
                     <i class="fa-solid fa-user-tie fa-2x"></i>
                     <h2 class="nav-heading">Asif</h2>
@@ -35,15 +35,18 @@
             </div>
             <div class="nav-items2">
                 <ul class="items-container">
-                    <li class="items"><a href="#About" class="nav-link">About</a></li>
+                    <!-- <li class="items"><a href="#hero-description" class="nav-link">About</a></li> -->
                     <li class="items"><a href="#Education" class="nav-link">Education</a></li>
                     <li class="items"><a href="#Skills" class="nav-link">Skills</a></li>
-                    <li class="items"><a href="#Contact" class="nav-link">Contact</a></li>
-
+                    <li class="items"><a href="#Skills" class="nav-link">Contact</a></li>
+                    <li class="items"><a href="#Certificates" class="nav-link">Certificates</a></li> <!-- Link to Certificates -->
+                    <li class="items"><a href="#Projects" class="nav-link">Projects</a></li> <!-- Link to Projects -->
                 </ul>
             </div>
         </div>
     </nav>
+    
+    
     <!-- hero Section -->
     <div class="hero-section">
         <div class="hero-left">
@@ -103,28 +106,103 @@
         </div>
 
     </div>
+
+    <!-- Certificates Section -->
+<div id="Certificates" class="section">
+    <h2 style="padding-bottom: 30px; font-size: 30px; color:#00246B">Certificates</h2>
+    <div class="certificates">
+        <div class="certificate">
+            <a href="path/to/certificate1.jpg" target="_blank">
+                <img src="path/to/certificate1.jpg" alt="Certificate 1">
+            </a>
+            <p>Certificate 1</p>
+        </div>
+        <div class="certificate">
+            <a href="path/to/certificate2.jpg" target="_blank">
+                <img src="path/to/certificate2.jpg" alt="Certificate 2">
+            </a>
+            <p>Certificate 2</p>
+        </div>
+        <div class="certificate">
+            <a href="path/to/certificate3.jpg" target="_blank">
+                <img src="path/to/certificate3.jpg" alt="Certificate 3">
+            </a>
+            <p>Certificate 3</p>
+        </div>
+    </div>
+</div>
+
+<!-- Projects Section -->
+<div id="Projects" class="section">
+    <h2 style="padding-bottom: 30px; font-size: 30px; color:#00246B">Projects</h2>
+    <div class="projects" style="padding-bottom: 30px;">
+        <div class="project">
+            <a href="project1.html" target="">
+                <img src="path/to/project1-thumbnail.jpg" alt="Project 1">
+            </a>
+            <p>Project 1</p>
+        </div>
+        <div class="project">
+            <a href="project2.html" target="_blank">
+                <img src="path/to/project2-thumbnail.jpg" alt="Project 2">
+            </a>
+            <p>Project 2</p>
+        </div>
+    </div>
+</div>
+    
+
     <!-- Get in touch + Skills -->
-    <div id="Contact" class="get-skills">
+    <div id="Skills" class="get-skills">
         <!-- Get in touch -->
         <div class="get-in-touch">
-        <div class="get-in-touch-heading">
-            <h3> Lets Get In Touch </h3>
+    <div class="get-in-touch-heading">
+        <h3> Let's Get In Touch </h3>
+    </div>
+    <div class="get-in-touch-items">
+        <ul class="social-items-container">
+            <li class="social-items">
+                <a href="https://www.facebook.com/asifuzzaman.asif.944" class="social-link">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-items">
+                <a href="https://github.com/Asif-075" class="social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="social-items">
+                <a href="https://www.instagram.com/asiff_075/?hl=en" class="social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-items">
+                <a href="https://www.youtube.com/channel/UCy7YxPjM2ueCu4zfHF8logg" class="social-link">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <!-- Gmail Icon (Opens Gmail Compose in a new tab) -->
+            <li class="social-items">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=itsdaasifjr@gmail.com" class="social-link" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </li>
+            <!-- Phone Number Icon (Triggers Modal to Show Phone Image)
+            <li class="social-items">
+                <a href="#" class="social-link" id="phoneIcon">
+                    <i class="fa-solid fa-phone"></i>
+                </a> -->
+            <!-- </li> -->
+        </ul>
+        <div class="get-in-touch-description">
+            <p class="get-in-des">Want to know more about me? Let's get connected.  Just click </p>
+            <a href="#" class="social-link"><i class="fa-solid fa-arrow-left"></i></a> 
         </div>
-        <div class="get-in-touch-items">
-          <ul class="social-items-container">
-            <li class="social-items"> <a href="https://www.facebook.com/asifuzzaman.asif.944" class="social-link"><i class="fa-brands fa-facebook fa-4x"></i></a></li>
-            <li class="social-items"> <a href="https://github.com/Asif-075" class="social-link"><i class="fa-brands fa-github fa-4x"></i></a></li>
-            <li class="social-items"> <a href="https://www.instagram.com/asiff_075/?hl=en" class="social-link"><i class="fa-brands fa-instagram fa-4x"></i></a></li>
-            <li class="social-items"> <a href="https://www.youtube.com/channel/UCy7YxPjM2ueCu4zfHF8logg" class="social-link"><i class="fa-brands fa-youtube fa-3x"></i></a></li>
-          </ul>
-          <div class="get-in-touch-description">
-             <p class="get-in-des" >Want to know more about me? Lets get connected</p>
-             <a href="#" class="social-link"><i class="fa-solid fa-arrow-left"></i></a> 
-          </div>
-        </div>
-     </div>
+    </div>
+</div>
+
      <!-- Skills -->
-     <div id="Skills" class="Skills">
+     <div class="Skills">
         <div class="Skills-Heading">
             <h3> Skills </h3>
         </div>
